@@ -3,7 +3,7 @@
  ID: 905005149
  Class: BIT1101 sem 3 
 This project is a simple Mini Library Management System built in Python.  
-It demonstrates the use of *dictionaries, lists, and tuples, and implements all basic CRUD (Create, Read, Update, Delete) operations, as well as borrow and return functionalities for library members.
+It demonstrates the use of dictionaries, lists, and tuples, and implements all basic CRUD (Create, Read, Update, Delete) operations, as well as borrow and return functionalities for library members.
 
  Core Functionalities
 
@@ -16,7 +16,7 @@ It demonstrates the use of *dictionaries, lists, and tuples, and implements all 
 | delete_book() / delete_member() | Deletes record if valid |
 | borrow_book() | Allows members to borrow (max 3 books) |
 | return_book() | Returns borrowed book and updates stock |
-🧪 Testing
+Testing
 
 At least 5 tests are included in tests.py using assert:
 - Adding a new book
@@ -26,5 +26,5 @@ At least 5 tests are included in tests.py using assert:
 - Deleting a borrowed book
 
 Run:
-```bash
+bash
 python tests.py
